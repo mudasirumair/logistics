@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>New abid goods</title>
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<style>
+    .blink{
+    -webkit-animation:blink 0.5s linear infinite ;
+    -moz-animation:blink 0.5s linear infinite ;
+    animation:blink 0.5s linear infinite ;
+}
+
+@-webkit-keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+}
+
+
+@-moz-keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+
+}
+
+@keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+}
+</style>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Invoice Hoster</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="createinvoice.php">create invoive</a>
+                    </li>
+                    <li>
+                        <a href="displayinvoice.php">display invoice</a>
+                    </li>
+                    <li>
+                        <a href="searchinvoice.php">search invoice</a>
+                    </li>
+                     <li>
+                        <a href="adddmesser.php">Add Messer</a>
+                    </li>
+                     <li>
+                        <a href="addlocation.php">Add location</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">manage accounts <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="totalbymesser.php">By Messer</a>
+                            </li>
+                            <li>
+                                <a href="searchtotalbymesserdate.php">By Date & Messer</a>
+                            </li>
+                            <li>
+                                <a href="totalbyall.php">By Date All</a>
+                            </li>
+                          
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="logout.php" class="dropdown-toggle" data-toggle="dropdown">LogOut <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="logout.php">logout</a>
+                            </li>
+                           <!-- <li>
+                                <a href="registration.php">registration</a>
+                            </li>-->
+                            
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+        <!-- Controls -->
+   
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                   <!--<h1 class="text text-primary">Status</h1> <h2 class="text-primary"> <marquee class="blink"><br>ToDay Transport Strik</marquee> -->
+                </h2> 
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading ">
+                        <h4 class="text-info"><i class="fa fa-fw fa-check"></i> The Developers</h4>
+                    </div>
+                    <div class="panel-body">
+                        <img class="img-responsive" src="images\images2.jpg" alt="" >
+						<hr>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="text-primary"><i class="fa fa-fw fa-phone"></i> Contact &amp; Support</h4>
+                    </div>
+                    <div class="panel-body">
+                        <img class="img-responsive" src="images\images1.jpg" alt="" >
+						
+						<hr>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading ">
+                        <h4 class="text-success"><i class="fa fa-fw fa-inbox"></i> Email marketing</h4>
+                    </div>
+                    <div class="panel-body" >
+                        <img class="img-responsive" src="images\images5.jpg" alt="" >
+						<hr>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-6">
+    <h1 class="text-danger"> We Providing Best Service</h1>
+	<br>
+           <img class="img-responsive" src="images\images4.jpg" alt="">
+                
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="images\ima.jpg" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-primary btn-block" href="#">New Abid Goods</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Webapp, 2019 | <a href="#" target="_blank" rel="nofollow">The Developers</a></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+	
+    <!-- /.container -->
+	
+	
+	
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
