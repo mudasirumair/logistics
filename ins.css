@@ -1,0 +1,76 @@
+body {
+  background-color:;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+
+#sec1{
+
+	background-color: red;
+	width: 200px;
+	height: 300px;
+	float:left;
+}
+
+#sec2{
+
+	background-color: green;
+	width: 200px;
+	height: 300px;
+	float:left;
+	margin-left: 5px;
+}
+#sec3{
+
+	background-color: black;
+	width: 200px;
+	height: 300px;
+	float:left;
+	margin-left: 5px;
+}
+#sec4{
+
+	background-color: blue;
+	width: 200px;
+	height: 300px;
+	float:left;
+	margin-left: 5px;
+	
+}
+
+
+#sec5{
+
+	background-color: yellow;
+	width: 200px;
+	height: 300px;
+	float:left;
+	margin-left: 5px;
+}
+
+#sec6{
+
+	background-color: pink;
+	width: 200px;
+	height: 300px;
+	float:left;
+	margin-left: 5px;
+}
+
+.table{
+	
+
+}
