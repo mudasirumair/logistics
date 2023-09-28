@@ -19,5 +19,3 @@ CREATE TABLE IF NOT EXISTS register.`users` (
  PRIMARY KEY (`id`)
  );
 
-Source: http://www.allphptricks.com/
-Javed Ur Rehman
